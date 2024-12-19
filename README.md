@@ -9,6 +9,7 @@
 - [Introdução](#introdução)
 - [Exercicios](#exercicios)
     - [Fatorial](#fatorial)
+    - [Pirâmide esquerda](#piramide-esquerda)
 - [Fontes](#fontes)
 
 <!--toc:end-->
@@ -42,6 +43,29 @@ Escreva um programa que receba um número (apenas o número), calcule seu fatori
 - 10! = `10 * 9 * 8 * 7 * 6 * 5 * 4 * 3 * 2 * 1 = 3628800`
 
 ![demo](./imagens/fatorial.gif)
+
+### Piramide esquerda
+
+Neste exercício basta imprimir uma pirâmide alinhada á esquerda de acordo com o tamanho especificado pelo usuário. A pirâmide deve ter a altura 
+e largura de acordo com o `número` inserido pelo usuário. Por exemplo:
+
+- Entrada = 3
+```
+    *
+    **
+    ***
+```
+- Entrada = 6
+```
+    *
+    **
+    ***
+    ****
+    *****
+    ******
+```
+
+![demo](./imagens/piramide.gif)
 
 ## Fontes
 
