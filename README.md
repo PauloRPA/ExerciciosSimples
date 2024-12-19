@@ -10,6 +10,7 @@
 - [Exercicios](#exercicios)
     - [Fatorial](#fatorial)
     - [Pirâmide esquerda](#piramide-esquerda)
+    - [Pirâmide direita](#piramide-direita)
 - [Fontes](#fontes)
 
 <!--toc:end-->
@@ -66,6 +67,30 @@ e largura de acordo com o `número` inserido pelo usuário. Por exemplo:
 ```
 
 ![demo](./imagens/piramide.gif)
+
+### Piramide direita
+
+Neste exercício basta imprimir uma pirâmide alinhada á direita de acordo com o tamanho especificado pelo usuário. A pirâmide deve ter a altura 
+e largura de acordo com o `número` inserido pelo usuário. Por exemplo:
+
+- Entrada = 3
+```
+      *
+     **
+    ***
+```
+- Entrada = 6
+```
+         *
+        **
+       ***
+      ****
+     *****
+    ******
+```
+
+![demo](./imagens/piramideDireita.gif)
+
 
 ## Fontes
 
