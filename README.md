@@ -11,6 +11,7 @@
     - [Fatorial](#fatorial)
     - [Pirâmide esquerda](#piramide-esquerda)
     - [Pirâmide direita](#piramide-direita)
+    - [Pirâmide centro](#piramide-centro)
 - [Fontes](#fontes)
 
 <!--toc:end-->
@@ -90,6 +91,33 @@ e largura de acordo com o `número` inserido pelo usuário. Por exemplo:
 ```
 
 ![demo](./imagens/piramideDireita.gif)
+
+### Piramide centro
+
+A pirâmide alinhada no centro é um pouco diferente, o `número` que o usuário insere apenas controla a altura da pirâmide. A pirâmide gerada deve ser
+simétrica. Por exemplo:
+
+- Entrada = 2
+```
+     *
+    ***
+```
+- Entrada = 3
+```
+      *
+     ***
+    *****
+```
+- Entrada = 5
+```
+        *
+       ***
+      *****
+     *******
+    *********
+```
+
+![demo](./imagens/piramideCentro.gif)
 
 
 ## Fontes
