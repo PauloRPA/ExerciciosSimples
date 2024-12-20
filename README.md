@@ -125,15 +125,15 @@ simétrica. Por exemplo:
 Pode ser considerado primo um número natural que só é divisível por ele mesmo e por 1. Ou então, pode se dizer que número primo é um número natural `maior que 1` que não pode ser formado pela multiplicação de outros dois naturais `menores`.
 Neste exercício deve ser escrito um programa que verifica se o número informado pelo usuário é primo ou não.
 
-Entrada = 2  -> Saída = `É primo.`
-Entrada = 3  -> Saída = `É primo.`
-Entrada = 4  -> Saída = `Não é primo.`
-Entrada = 17 -> Saída =  `É primo.`
-Entrada = 18 -> Saída =  `Não é primo.`
-Entrada = 16 -> Saída =  `Não é primo.`
-Entrada = 19 -> Saída =  `É primo.`
-Entrada = 69 -> Saída =  `Não é primo.`
-Entrada = 79 -> Saída =  `É primo.`
+- Entrada = 2  -> Saída = `É primo.`
+- Entrada = 3  -> Saída = `É primo.`
+- Entrada = 4  -> Saída = `Não é primo.`
+- Entrada = 17 -> Saída =  `É primo.`
+- Entrada = 18 -> Saída =  `Não é primo.`
+- Entrada = 16 -> Saída =  `Não é primo.`
+- Entrada = 19 -> Saída =  `É primo.`
+- Entrada = 69 -> Saída =  `Não é primo.`
+- Entrada = 79 -> Saída =  `É primo.`
 
 ![demo](./imagens/primos.gif)
 
