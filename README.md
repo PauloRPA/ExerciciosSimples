@@ -13,6 +13,8 @@
     - [Pirâmide direita](#piramide-direita)
     - [Pirâmide centro](#piramide-centro)
     - [Numeros primos](#numeros-primos)
+    - [Contador de dígitos](#contador-de-digitos)
+    - [Calculadora](#calculadora)
 - [Fontes](#fontes)
 
 <!--toc:end-->
@@ -137,22 +139,21 @@ Neste exercício deve ser escrito um programa que verifica se o número informad
 
 ![demo](./imagens/primos.gif)
 
-### Contador de dígitos
+### Contador de digitos
 
 Escreva um programa que deve realizar a contagem de quantos dígitos o número informado pelo usuário possui. Caso o número 0 seja inserido a saída esperada é 1.
-Devem apenas ser considerados válidos números positivos, caso um número negativo seja inserido a mensagem de erro "Número inválido. A entrada deve ser maior ou igual a 0." deve ser mostrada.
+Devem apenas ser considerados válidos números positivos, caso um número negativo seja inserido a mensagem de erro `"Número inválido. A entrada deve ser maior ou igual a 0."` deve ser mostrada.
 
-- Número inválido. A entrada deve ser maior que 0.
-- O número 0 tem 1 dígitos
-- O número 1 tem 1 dígitos
-- O número 2 tem 1 dígitos
-- O número 3 tem 1 dígitos
-- O número 10 tem 2 dígitos
-- O número 100 tem 3 dígitos
-- O número 239 tem 3 dígitos
-- O número 509 tem 3 dígitos
-- O número 1293 tem 4 dígitos
-- O número 39482 tem 5 dígitos
+- O número `0` tem 1 dígitos
+- O número `1` tem 1 dígitos
+- O número `2` tem 1 dígitos
+- O número `3` tem 1 dígitos
+- O número `10` tem 2 dígitos
+- O número `100` tem 3 dígitos
+- O número `239` tem 3 dígitos
+- O número `509` tem 3 dígitos
+- O número `1293` tem 4 dígitos
+- O número `39482` tem 5 dígitos
 
 ![demo](./imagens/digitos.gif)
 
@@ -161,14 +162,14 @@ Devem apenas ser considerados válidos números positivos, caso um número negat
 Crie uma calculadora básica capaz de realizar as 4 operações. Ao executar o programa o usuário deve selecionar a operação matemática a ser feita para depois inserir dois números que serão usados na operação.
 Por fim o resultado deve ser mostrado ao usuário mostrando os números usados como entrada.
 
-No exemplo a seguir a operação é selecionada pelo seu índice na lista e os dois números a serem inseridos possuem a operação escolhida entre parênteses.
+No exemplo a seguir a operação é selecionada pelo seu índice na lista. No momento de inserir os dois números para o cálculo, a operação escolhida é exibida entre parênteses.
 ```
-    escreva("---------------------\n")
-    escreva("[1] Soma\n")
-    escreva("[2] Subtração\n")
-    escreva("[3] Multiplicação\n")
-    escreva("[4] Divisão\n")
-    escreva("---------------------\n")
+escreva("---------------------\n")
+escreva("[1] Soma\n")
+escreva("[2] Subtração\n")
+escreva("[3] Multiplicação\n")
+escreva("[4] Divisão\n")
+escreva("---------------------\n")
 ```
 
 ![demo](./imagens/calculadora.gif)
