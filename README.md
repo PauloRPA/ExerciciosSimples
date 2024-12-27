@@ -137,12 +137,30 @@ Neste exercício deve ser escrito um programa que verifica se o número informad
 
 ![demo](./imagens/primos.gif)
 
+### Contador de dígitos
+
+Escreva um programa que deve realizar a contagem de quantos dígitos o número informado pelo usuário possui. Caso o número 0 seja inserido a saída esperada é 1.
+Devem apenas ser considerados válidos números positivos, caso um número negativo seja inserido a mensagem de erro "Número inválido. A entrada deve ser maior ou igual a 0." deve ser mostrada.
+
+- Número inválido. A entrada deve ser maior que 0.
+- O número 0 tem 1 dígitos
+- O número 1 tem 1 dígitos
+- O número 2 tem 1 dígitos
+- O número 3 tem 1 dígitos
+- O número 10 tem 2 dígitos
+- O número 100 tem 3 dígitos
+- O número 239 tem 3 dígitos
+- O número 509 tem 3 dígitos
+- O número 1293 tem 4 dígitos
+- O número 39482 tem 5 dígitos
+
+![demo](./imagens/digitos.gif)
+
 ## Fontes
 
 Eu não sou o autor/criador dos exercícios dispostos nesse repositório, as fontes originais do material (em inglês) estão disponíveis abaixo para quem quiser ver.
 
 - https://pwskills.com/blog/basic-programming-problems/
 - https://www.masterycoding.com/blog/5-coding-challenges
-- https://daily.dev/blog/fun-coding-problems-from-easy-to-hard
 - https://adriann.github.io/programming_problems.html
 - https://www.coodemaroc.com/p/algo.html
