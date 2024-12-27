@@ -156,6 +156,23 @@ Devem apenas ser considerados válidos números positivos, caso um número negat
 
 ![demo](./imagens/digitos.gif)
 
+### Calculadora
+
+Crie uma calculadora básica capaz de realizar as 4 operações. Ao executar o programa o usuário deve selecionar a operação matemática a ser feita para depois inserir dois números que serão usados na operação.
+Por fim o resultado deve ser mostrado ao usuário mostrando os números usados como entrada.
+
+No exemplo a seguir a operação é selecionada pelo seu índice na lista e os dois números a serem inseridos possuem a operação escolhida entre parênteses.
+```
+    escreva("---------------------\n")
+    escreva("[1] Soma\n")
+    escreva("[2] Subtração\n")
+    escreva("[3] Multiplicação\n")
+    escreva("[4] Divisão\n")
+    escreva("---------------------\n")
+```
+
+![demo](./imagens/calculadora.gif)
+
 ## Fontes
 
 Eu não sou o autor/criador dos exercícios dispostos nesse repositório, as fontes originais do material (em inglês) estão disponíveis abaixo para quem quiser ver.
